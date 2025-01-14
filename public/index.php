@@ -4,6 +4,16 @@ include './includes/functions.php';
 include './components/header.php';
 ?>
 
-<div class="  container min-h-[85vh] flex justify-center items-center text-3xl">Home</div>
+<!-- container -->
+<div class=" app-container">
+    <!--  -->
+    <?php include './components/side-nav.php' ?>
+    <!--  -->
+    <div class=" main scrollbar transition-all duration-500">
+        <?php include './components/top-bar.php' ?>
+        <!-- main -->
+    </div>
+</div>
+<!-- end container -->
 
 <?php include './components/footer.php'; ?>

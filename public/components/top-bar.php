@@ -1,0 +1,54 @@
+<div class=" sticky top-0 p-4 bg-white shadow-md">
+    <div class=" flex items-center gap-4">
+        <!-- menu btn -->
+        <div id="toggle-nav" class=" text-2xl cursor-pointer active:text-app-primary">
+            <i class="fa-solid fa-bars-staggered"></i>
+        </div>
+        <!-- first name -->
+        <div class=" flex-1 truncate text-2xl font-semibold">
+            Hello James
+        </div>
+        <!-- searchbar -->
+        <div class=" hidden md:block">
+            <form action="">
+                <div class=" rounded-full flex items-center gap-2 border border-gray-300 py-1 px-4">
+                    <input type="search" name="search" id="search" class=" outline-none w-full max-w-[150px]" placeholder="Search Here ...">
+                    <button type="submit" class=" text-gray-400"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+            </form>
+        </div>
+        <!-- chat notification -->
+        <div class=" relative text-gray-500 cursor-pointer">
+            <i class="fa-regular fa-message"></i>
+            <!-- <div class=" absolute top-[-4px] right-[-4px] w-[16px] overflow-hidden aspect-square rounded-full bg-app-secondary text-white flex items-center justify-center text-[8px]">
+                <div class="">0</div>
+            </div> -->
+        </div>
+        <!-- alert notification -->
+        <div class=" relative text-gray-500 cursor-pointer">
+            <i class="fa-regular fa-bell"></i>
+            <div class=" absolute top-[-4px] right-[-4px] w-[16px] overflow-hidden aspect-square rounded-full bg-app-secondary text-white flex items-center justify-center text-[8px]">
+                <div class="">1</div>
+            </div>
+        </div>
+        <!-- profile -->
+        <div class=" cursor-pointer flex gap-2 items-center">
+            <!-- avater -->
+            <div class=" w-[40px] aspect-square rounded-full overflow-hidden bg-gray-500">
+                <img src="./assets/man-placeholder.jpg" class=" w-full h-full object-cover" alt="">
+            </div>
+            <!-- username -->
+            <div class=" hidden md:block">
+                <div class=" font-semibold">Essien19</div>
+                <div class=" flex items-center gap-2">
+                    <div class=" w-[8px] aspect-square rounded-full bg-green-500"></div>
+                    <div class=" text-xs font-semibold text-gray-500">Online</div>
+                </div>
+            </div>
+            <!-- arrow -->
+            <div class=" text-gray-500">
+                <i class="fa-solid fa-angle-down"></i>
+            </div>
+        </div>
+    </div>
+</div>
