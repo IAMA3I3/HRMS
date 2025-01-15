@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="src/styles.css">
+    <link rel="stylesheet" href="src/styles.css?v=<?php echo time(); ?>">
     <title>Sign Up | HRMS</title>
 </head>
 
@@ -42,7 +42,7 @@
                 </div>
                 <!--  -->
                 <button type="submit" class=" mt-8 w-full py-2 font-semibold rounded-md text-white bg-app-primary hover:bg-app-secondary active:scale-95">Sign Up</button>
-                <div class=" mt-2 text-center text-sm font-semibold text-gray-500">Already have an account? <a href="#" class=" text-app-primary hover:underline">Login</a></div>
+                <div class=" mt-2 text-center text-sm font-semibold text-gray-500">Already have an account? <a href="./login.php" class=" text-app-primary hover:underline">Login</a></div>
             </form>
             <!-- end form -->
         </div>

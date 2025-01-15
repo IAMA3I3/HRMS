@@ -4,7 +4,7 @@
     </div>
     <div class=" py-4">
         <!-- navs -->
-        <a href="./index.php" class=" py-2 px-4 hover:bg-gray-200 flex items-center text-gray-600 font-semibold">
+        <a href="./index.php" class="<?php echo isPageActive('index.php') ? ' text-app-primary' : ' text-gray-600'; ?> py-2 px-4 hover:bg-gray-200 flex items-center font-semibold">
             <div class=" w-[40px]">
                 <i class="fa-solid fa-house"></i>
             </div>

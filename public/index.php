@@ -12,6 +12,7 @@ include './components/header.php';
     <div class=" main scrollbar transition-all duration-500">
         <?php include './components/top-bar.php' ?>
         <!-- main -->
+        <div class="">Dashboard</div>
     </div>
 </div>
 <!-- end container -->

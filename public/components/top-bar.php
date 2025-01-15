@@ -1,5 +1,5 @@
 <div class=" sticky top-0 p-4 bg-white shadow-md">
-    <div class=" flex items-center gap-4">
+    <div class=" flex items-center gap-4 lg:gap-6">
         <!-- menu btn -->
         <div id="toggle-nav" class=" text-2xl cursor-pointer active:text-app-primary">
             <i class="fa-solid fa-bars-staggered"></i>
@@ -20,6 +20,7 @@
         <!-- chat notification -->
         <div class=" relative text-gray-500 cursor-pointer">
             <i class="fa-regular fa-message"></i>
+            <!-- badge -->
             <!-- <div class=" absolute top-[-4px] right-[-4px] w-[16px] overflow-hidden aspect-square rounded-full bg-app-secondary text-white flex items-center justify-center text-[8px]">
                 <div class="">0</div>
             </div> -->
@@ -27,6 +28,7 @@
         <!-- alert notification -->
         <div class=" relative text-gray-500 cursor-pointer">
             <i class="fa-regular fa-bell"></i>
+            <!-- badge -->
             <div class=" absolute top-[-4px] right-[-4px] w-[16px] overflow-hidden aspect-square rounded-full bg-app-secondary text-white flex items-center justify-center text-[8px]">
                 <div class="">1</div>
             </div>

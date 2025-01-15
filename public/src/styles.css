@@ -965,12 +965,24 @@ body {
   height: 100vh;
 }
 
+.h-\[200vh\] {
+  height: 200vh;
+}
+
 .w-\[120px\] {
   width: 120px;
 }
 
 .w-\[16px\] {
   width: 16px;
+}
+
+.w-\[40px\] {
+  width: 40px;
+}
+
+.w-\[8px\] {
+  width: 8px;
 }
 
 .w-\[this-is\\\\\] {
@@ -991,18 +1003,6 @@ body {
 
 .w-screen {
   width: 100vw;
-}
-
-.w-\[40px\] {
-  width: 40px;
-}
-
-.w-\[4px\] {
-  width: 4px;
-}
-
-.w-\[8px\] {
-  width: 8px;
 }
 
 .max-w-\[150px\] {
@@ -2036,11 +2036,6 @@ body {
   background-color: rgb(0 0 0 / 0.15);
 }
 
-.bg-white {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
 .bg-gray-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(107 114 128 / var(--tw-bg-opacity));
@@ -2049,6 +2044,11 @@ body {
 .bg-green-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(34 197 94 / var(--tw-bg-opacity));
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
 .decoration-slice {
@@ -2368,6 +2368,11 @@ body {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-app-secondary {
+  --tw-text-opacity: 1;
+  color: rgb(18 75 86 / var(--tw-text-opacity));
 }
 
 .underline {
@@ -2832,6 +2837,12 @@ body {
 
   .md\:w-\[500px\] {
     width: 500px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:gap-6 {
+    gap: 1.5rem;
   }
 }
 
