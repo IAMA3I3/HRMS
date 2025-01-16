@@ -34,7 +34,7 @@
             </div>
         </div>
         <!-- profile -->
-        <div class=" cursor-pointer flex gap-2 items-center">
+        <div class=" top-dropdown-toggle relative cursor-pointer flex gap-2 items-center">
             <!-- avater -->
             <div class=" w-[40px] aspect-square rounded-full overflow-hidden bg-gray-500">
                 <img src="./assets/man-placeholder.jpg" class=" w-full h-full object-cover" alt="">
@@ -48,8 +48,34 @@
                 </div>
             </div>
             <!-- arrow -->
-            <div class=" text-gray-500">
+            <div class=" drop-ic transition-all duration-500 text-gray-500">
                 <i class="fa-solid fa-angle-down"></i>
+            </div>
+            <!-- dropdown -->
+            <div class=" top-dropdown transition-all duration-500 absolute right-0 top-[60px] bg-white border border-gray-100 shadow-lg rounded-md p-2 min-w-[180px]">
+                <!-- profile -->
+                <a href="#" class=" flex items-center text-sm font-semibold text-gray-500 py-2 px-4 hover:text-app-primary">
+                    <div class=" w-[20px]">
+                        <i class="fa-regular fa-user"></i>
+                    </div>
+                    <div class="">Profile</div>
+                </a>
+                <div class=" w-full h-[1px] bg-gray-200"></div>
+                <!-- chat -->
+                <a href="#" class=" flex items-center text-sm font-semibold text-gray-500 py-2 px-4 hover:text-app-primary">
+                    <div class=" w-[20px]">
+                        <i class="fa-regular fa-message"></i>
+                    </div>
+                    <div class="">Chat</div>
+                </a>
+                <div class=" w-full h-[1px] bg-gray-200"></div>
+                <!-- logout -->
+                <a href="#" class=" flex items-center text-sm font-semibold text-gray-500 py-1 px-4 hover:text-app-primary">
+                    <div class=" w-[20px]">
+                        <i class="fa-solid fa-right-from-bracket"></i>
+                    </div>
+                    <div class="">Log Out</div>
+                </a>
             </div>
         </div>
     </div>

@@ -26,7 +26,7 @@
     }
 
     .app-container .nav-container {
-      @apply w-[250px] h-full overflow-y-auto absolute bg-white shadow translate-x-[-250px] md:translate-x-0 z-50
+      @apply w-[250px] h-full overflow-y-auto overflow-x-hidden absolute bg-white shadow translate-x-[-250px] md:translate-x-0 z-50
     }
 
     .app-container .nav-container.slide {
@@ -34,7 +34,7 @@
     }
 
     .app-container .main {
-      @apply h-full overflow-y-auto md:ml-[250px]
+      @apply h-full overflow-y-auto overflow-x-hidden md:ml-[250px]
     }
 
     .app-container .main.expand {
@@ -47,5 +47,37 @@
 
     .nav-overlay.show {
       @apply opacity-100 visible
+    }
+
+    .nav-dropdown-toggle .drop-ic {
+      @apply rotate-0
+    }
+
+    .nav-dropdown-toggle .drop-ic.rotate {
+      @apply rotate-180
+    }
+
+    .nav-dropdown {
+      @apply max-h-0
+    }
+
+    .nav-dropdown.open {
+      @apply max-h-[500px]
+    }
+
+    .top-dropdown-toggle .drop-ic {
+      @apply rotate-0
+    }
+
+    .top-dropdown-toggle .drop-ic.rotate {
+      @apply rotate-180
+    }
+
+    .top-dropdown {
+      @apply -translate-y-10 opacity-0 invisible
+    }
+
+    .top-dropdown.open {
+      @apply translate-y-0 opacity-100 visible
     }
 }
